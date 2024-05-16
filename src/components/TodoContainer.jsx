@@ -5,10 +5,7 @@ import TodoList from "./TodoList"
 
 function TodoContainer() {
     const [activityArr, setAactivityArr] = useState([
-        {
-            id: 1,
-            activity: "Go to the GYM"
-        }
+        
     ])
     return (
         <div>
